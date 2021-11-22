@@ -34,7 +34,20 @@
             Part 2: Weather App
         </h1>
         <div class="api-content">
-            [INSERT WEATHER APP HERE]
+            <form id="cityForm">
+                <div class="mb-3">
+                    <label for="inputCity" class="form-label">City:</label>
+                    <input type="text" class="form-control" id="inputCity" />
+                </div>
+                <button id="inputCityBtn" type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div id="currentWeather">
+            <!-- <label> Current weather in</label> -->
+            <div id="city"></div>
+            <div id="temperature"></div>
+            <div id="wind"></div>
+            <div id="description"></div>
         </div>
     </div>
 
